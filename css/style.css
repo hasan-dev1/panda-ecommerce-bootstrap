@@ -10,6 +10,9 @@ body{
 .pheit{
     height: 100px;
 }
+.noHover{
+    pointer-events: none;
+}
 
 @media (min-width: 577px) and (max-width:768px) { 
     .slider_img{
