@@ -1,0 +1,29 @@
+.panda-bg{
+    background-color: #feeae9 !important;
+}
+.panda-bag{
+    background-color: #ff4a92;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.pheit{
+    height: 100px;
+}
+
+@media (min-width: 577px) and (max-width:768px) { 
+    .slider_img{
+        margin-bottom: 15px;
+    }
+ }
+
+
+@media (min-width: 1px) and (max-width:576px) { 
+    .flex-dirr{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .slider_img{
+        margin-bottom: 15px;
+    }
+ }
